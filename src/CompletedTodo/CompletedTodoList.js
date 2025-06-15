@@ -75,7 +75,7 @@ const CompletedTodoList = () => {
                     {row.name}
                   </TableCell>
                   <TableCell align="right">
-                    <DeleteIcon
+                    <DeleteIcon 
                       sx={{ color: "red" }}
                       onClick={() => {
                         openDeleteModal(row.id);
