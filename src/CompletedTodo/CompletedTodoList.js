@@ -66,7 +66,7 @@ const CompletedTodoList = () => {
           COMPLETED
         </Typography>
         <Divider />
-        <TableContainer>
+        <TableContainer sx={{ overflowY: "auto", height: "120px" }}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableBody>
               {completedTodos.map((row) => (
